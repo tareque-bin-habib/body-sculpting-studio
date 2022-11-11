@@ -17,7 +17,7 @@ const Gym = () => {
     }
     return (
         <div>
-            <h2>Body Sculpting Studio</h2>
+            <h2 className='heading'>Body Sculpting Studio</h2>
             <h3>Select Todays Exercise</h3>
             <div className='gym-container'>
                 <div className='product-container'>
