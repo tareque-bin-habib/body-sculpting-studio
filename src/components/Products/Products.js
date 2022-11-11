@@ -11,6 +11,9 @@ const Products = (props) => {
                 <p>For Age : {age}</p>
                 <p>Time required: {time} s</p>
             </div>
+            <button className='add-to-list-btn'>
+                <p>Add To List</p>
+            </button>
         </div>
     );
 };

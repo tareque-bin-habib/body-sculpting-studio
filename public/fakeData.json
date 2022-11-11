@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "img": "https://thumbs.dreamstime.com/b/dumbbell-weight-training-healthy-concept-studio-dumbbell-weight-training-healthy-concept-160235014.jpg",
         "name": "Dumble",
         "details": "Exerxise is very good for health.So when you young enough you keep your body fit.So you must Counticue your gym life ",
@@ -7,6 +8,7 @@
         "time": 20
     },
     {
+        "id": 2,
         "img": "https://hirakraja.com/5080-home_default/heavy-duty-sports-spinner-exercise-bike.jpg",
         "name": "Spinner Exercise Bike",
         "details": "Exerxise is very good for health.So when you young enough you keep your body fit.So you must Counticue your gym life ",
@@ -14,6 +16,7 @@
         "time": 40
     },
     {
+        "id": 3,
         "img": "https://hirakraja.com/4059-home_default/multi-grip-chin-up-bar-dip-stand-power-tower-set-for-home-gym.jpg",
         "name": "chin Up Bar",
         "details": "Exerxise is very good for health.So when you young enough you keep your body fit.So you must Counticue your gym life ",
@@ -21,6 +24,7 @@
         "time": 25
     },
     {
+        "id": 4,
         "img": "https://hirakraja.com/2945-home_default/magnetic-exercise-bike-efit-533b.jpg",
         "name": "Magnetic Exercise Bike",
         "details": "Exerxise is very good for health.So when you young enough you keep your body fit.So you must Counticue your gym life ",
@@ -28,6 +32,7 @@
         "time": 60
     },
     {
+        "id": 5,
         "img": "https://hirakraja.com/5127-home_default/smartrek-ft400-motorized-treadmill-.jpg",
         "name": "Trademil",
         "details": "Exerxise is very good for health.So when you young enough you keep your body fit.So you must Counticue your gym life ",
@@ -35,13 +40,15 @@
         "time": 20
     },
     {
+        "id": 6,
         "img": "https://hirakraja.com/4060-home_default/wall-mounted-pull-up-and-heavy-parallel-dip-bar.jpg",
         "name": "Wall Mounted pull up",
         "details": "Exerxise is very good for health.So when you young enough you keep your body fit.So you must Counticue your gym life ",
         "age": "18 - 30",
-        "time": 30
+        "time": 20
     },
     {
+        "id": 7,
         "img": "https://hirakraja.com/4236-home_default/hj-b071-comprehensive-training-machine.jpg",
         "name": "Comprehensive Training Machine",
         "details": "Exerxise is very good for health.So when you young enough you keep your body fit.So you must Counticue your gym life ",
@@ -49,6 +56,7 @@
         "time": 20
     },
     {
+        "id": 8,
         "img": "https://hirakraja.com/4237-home_default/wnq-one-station-home-gym-fi519ci.jpg",
         "name": "One station gym",
         "details": "Exerxise is very good for health.So when you young enough you keep your body fit.So you must Counticue your gym life ",
@@ -56,6 +64,7 @@
         "time": 35
     },
     {
+        "id": 9,
         "img": "https://hirakraja.com/3531-home_default/40-x-2-battle-rope-black-poly-dacron.jpg",
         "name": "Battle Rope",
         "details": "Exerxise is very good for health.So when you young enough you keep your body fit.So you must Counticue your gym life ",
