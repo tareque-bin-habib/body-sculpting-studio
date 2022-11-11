@@ -1,0 +1,10 @@
+.product {
+    width: 310px;
+    height: 500px;
+    border: 2px solid skyblue;
+}
+
+.product img {
+    height: 250px;
+    width: 300px;
+}

@@ -1,0 +1,25 @@
+.gym-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+h2 {
+    padding-top: 3%;
+    padding-left: 4%;
+}
+
+h3 {
+    padding-left: 4%;
+    padding-top: 1%;
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding-left: 4%;
+}
+
+.cart h1 {
+    margin-top: 0;
+}
