@@ -4,11 +4,17 @@ import Products from '../Products/Products';
 import './Gym.css'
 const Gym = () => {
     const [products, setProducts] = useState([])
+    const [cart, setCart] = useState([])
     useEffect(() => {
         fetch('fakeData.json')
             .then(res => res.json())
             .then(data => setProducts(data))
     }, [])
+    const addToList = (time) => {
+        const newTime = [...cart, time]
+        setCart(newTime)
+        // console.log('time', time)
+    }
     return (
         <div>
             <h2>Body Sculpting Studio</h2>
@@ -16,11 +22,11 @@ const Gym = () => {
             <div className='gym-container'>
                 <div className='product-container'>
                     {
-                        products.map(product => <Products product={product} key={product.id}></Products>)
+                        products.map(product => <Products product={product} key={product.id} addToList={addToList}></Products>)
                     }
                 </div>
                 <div className='cart'>
-                    <Cart></Cart>
+                    <Cart cart={cart}></Cart>
                 </div>
             </div>
         </div>
