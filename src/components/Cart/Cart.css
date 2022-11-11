@@ -1,3 +1,8 @@
+.cart {
+    position: sticky;
+    top: 10px;
+}
+
 .profile {
     display: flex;
 }
@@ -11,4 +16,56 @@ p {
 .profile img {
     width: 20%;
     border-radius: 10px;
+}
+
+.body-measurements {
+    background-color: #F2F4FA;
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.break p {
+    font-weight: bold;
+    padding-top: 10%;
+}
+
+.time {
+    width: 90%;
+    height: 70px;
+    background-color: #F2F4FA;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.time-btn {
+    width: 12%;
+    height: 50px;
+    border-radius: 100px;
+    border: 1px solid black;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.exercise-heading {
+    font-weight: bold;
+    padding-top: 10%;
+    font-size: 23px;
+}
+
+.exercise-time {
+    background-color: #F2F4FA;
+    width: 90%;
+    display: flex;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.exercise-time p {
+    font-weight: bold;
+    font-size: 23px;
+    padding-top: 15px;
 }
