@@ -91,6 +91,10 @@ p {
     color: #27AE60;
 }
 
+.body-measurements p {
+    font-weight: bold;
+}
+
 .break p {
     color: #27AE60;
 }

@@ -6,6 +6,10 @@
     margin-left: 3%;
 }
 
+.question h1 {
+    color: #27AE60;
+}
+
 .last {
     margin-bottom: 5%;
 }
