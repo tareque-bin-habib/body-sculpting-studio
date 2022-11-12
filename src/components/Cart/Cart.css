@@ -10,7 +10,10 @@
 .profile h3,
 p {
     padding-left: 10px;
-    /* margin-top: 0; */
+}
+
+.profile-name {
+    color: #27AE60;
 }
 
 .profile img {
@@ -48,6 +51,11 @@ p {
     border: 1px solid black;
     margin-right: 20px;
     margin-top: 10px;
+}
+
+.time-btn:hover {
+    background-color: #27AE60;
+    color: #fff;
 }
 
 .exercise-heading {

@@ -24,7 +24,7 @@ const Cart = (props) => {
             <div className='profile'>
                 <img src={img} alt="" />
                 <div>
-                    <h3>Tareque</h3>
+                    <h3 className='profile-name'>Tareque</h3>
                     <p>Melbourn Australia</p>
                 </div>
             </div>
@@ -56,15 +56,14 @@ const Cart = (props) => {
                 <p className='exercise-heading'>Exercise Details</p>
                 <div className='exercise-time'>
                     <div className='exercise-time'>
-                        <p>Exercise Time: {time}
-                            Second
+                        <p>Exercise Time: {time} second
                         </p>
                     </div>
 
                 </div>
                 <div className='exercise-time'>
                     <p>Break Time: {ten} </p>
-                    <p>      Seconds</p>
+                    <p>      seconds</p>
                 </div>
             </div>
             <button onClick={completed} className='completed-btn'>
