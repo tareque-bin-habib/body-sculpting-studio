@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import './Cart.css'
 import img from '../../image/istockphoto-1200677760-612x612.jpg'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const Cart = (props) => {
     const { cart } = props;
     const [ten, setTen] = useState(0)
@@ -17,7 +19,7 @@ const Cart = (props) => {
         setTen(getValue)
     }, [])
     const completed = () => {
-        alert('Task Completed')
+        toast.success('your activity was successful')
     }
     return (
         <div className='cart'>
@@ -69,6 +71,7 @@ const Cart = (props) => {
             <button onClick={completed} className='completed-btn'>
                 <p>Activity Completed</p>
             </button>
+            <ToastContainer></ToastContainer>
         </div >
     );
 };
